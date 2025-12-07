@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/feegeer/cpack-exercise-wt2526
+Upstream-Name: cpack-exercise-wt2526
+Upstream-Contact: feegeer <feegeer@users.github.com>
+
+Files: *
+License: MIT
+Copyright: Copyright (c) 2021 Simulation-Software-Engineering

@@ -1,0 +1,18 @@
+.TH cpackexample 1 "2025" "cpackexample" "User Commands"
+.SH NAME
+cpackexample \- run FEM example, modify flat sets, inspect filesystem, and optionally parse a YAML file
+.SH SYNOPSIS
+.B cpackexample
+[\fIYAMLFILE\fR]
+.SH DESCRIPTION
+Runs a small demonstration program that:
+- solves a Poisson problem using FEM,
+- modifies and prints a flat set,
+- inspects the current directory,
+- and parses a YAML file if one is provided.
+.SH ARGUMENTS
+.TP
+\fBYAMLFILE\fR
+YAML file to parse. If omitted, prints usage information.
+.SH AUTHOR
+feegeer <feegeer@users.github.com>
